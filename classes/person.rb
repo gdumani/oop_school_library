@@ -1,4 +1,4 @@
-require './nameable'
+require_relative './nameable'
 # Base class for all persons
 class Person < Nameable
   attr_reader :id

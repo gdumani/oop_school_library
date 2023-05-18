@@ -1,4 +1,4 @@
-require './nameable'
+require_relative './nameable'
 
 # Name decorator
 class Decorator < Nameable
