@@ -46,7 +46,7 @@
 
 - **[Follows OOP principles]**
 - **[Console application]**
-- **[key_feature_3]**
+- **[persons decorators]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +90,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  irb
+  irb decorators_test.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
