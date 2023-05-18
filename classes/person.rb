@@ -1,4 +1,4 @@
-requrire './nameable'
+require './nameable'
 # Base class for all persons
 class Person < Nameable
   attr_reader :id
@@ -9,7 +9,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
-    super
+    super()
   end
 
   def can_use_services?
