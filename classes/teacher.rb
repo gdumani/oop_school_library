@@ -3,7 +3,7 @@ require_relative './person'
 # class for teacher inherits from person.
 class Teacher < Person
   def initialize(age, specialization, name = 'Unknown')
-    super(name, age)
+    super(age, name)
     @specialization = specialization
   end
 
