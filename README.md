@@ -83,21 +83,49 @@ Example command:
   cd oop_school_library
   gem install
 ```
+To run the app as an executable verfiy the execute flag is set
+
+```sh
+  ls -l main
+```
+should show 
+`-rwxr-xr-x 1`
+
+If needed they can be turne on by
+
+```sh
+  sudo chmod 755 main
+```
+An optional symbolic link can be added if you wish to avoid using
+the prefix ./ when calling the command 
+
+```sh
+  ln -s $PWD/main /usr/local/bin/
+```
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-
 ```sh
   main 
 ```
+If no symbolic link was created run it by typing 
 
+```sh
+  ./main
+```
+or 
+
+```sh
+  ruby main
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 
 👤 **Giancarlo Dumani**
