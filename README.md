@@ -45,8 +45,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Follows OOP principles]**
-- **[Console application]**
-- **[persons decorators]**
+- **[Excecutable console application]**
+- **[Interactive UI]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +90,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  irb 
+  main 
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,8 +113,8 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Additional classes]**
-- [ ] **[Interactive console UI]**
+- [ ] **[Apply decorators]**
+- [ ] **[Include input validators]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
