@@ -65,7 +65,7 @@ def new_book(app)
   app.create_book title, author
 end
 
-def check_menu(app)
+def check_menu(app, sel)
   case sel
   when 1
     app.list_books
@@ -90,7 +90,7 @@ def main
     sel = gets.chomp.to_i
     break if sel == 7
 
-    check_menu app
+    check_menu app, sel
   end
 end
 
